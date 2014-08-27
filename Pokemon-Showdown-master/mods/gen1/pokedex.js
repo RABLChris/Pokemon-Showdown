@@ -1,6 +1,6 @@
 exports.BattlePokedex = {
 missingno:{species:"Missingno.",types:["Bird","Normal"],gender:"N",baseStats:{hp:33,atk:136,def:0,spa:6,spd:6,spe:29},abilities:{},heightm:3,weightkg:1590.8,color:"Gray"},
-bulbasaur:{num:1,species:"Bulbasaur",types:["Grass","Poison"],gender:"N",baseStats:{hp:45,atk:49,def:49,spa:65,spd:65,spe:45},abilities:{},heightm:0.7,weightkg:6.9,color:"Green",evos:["ivysaur"]},
+bulbasaur:{num:1,species:"Bulbasaur",types:["Grass","Poison"],gender:"N",baseStats:{hp:255,atk:49,def:49,spa:65,spd:65,spe:45},abilities:{},heightm:0.7,weightkg:6.9,color:"Green",evos:["ivysaur"]},
 ivysaur:{num:2,species:"Ivysaur",types:["Grass","Poison"],gender:"N",baseStats:{hp:60,atk:62,def:63,spa:80,spd:80,spe:60},abilities:{},heightm:1,weightkg:13,color:"Green",prevo:"bulbasaur",evos:["venusaur"],evoLevel:16},
 venusaur:{num:3,species:"Venusaur",types:["Grass","Poison"],gender:"N",baseStats:{hp:80,atk:82,def:83,spa:100,spd:100,spe:80},abilities:{},heightm:2,weightkg:100,color:"Green",prevo:"ivysaur",evoLevel:32},
 charmander:{num:4,species:"Charmander",types:["Fire"],gender:"N",baseStats:{hp:39,atk:52,def:43,spa:50,spd:50,spe:65},abilities:{},heightm:0.6,weightkg:8.5,color:"Red",evos:["charmeleon"]},
