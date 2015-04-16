@@ -1,6 +1,4 @@
 exports.BattleScripts = {
-	init: function () {
-
                         //Chimecho
 
 		this.modData('Pokedex', 'chimecho').types = ['Psychic', 'Fairy'];
@@ -60,6 +58,4 @@ exports.BattleScripts = {
                         this.modData('Pokedex', 'watchog').abilities['0'] = 'Compoundeyes';
                         this.modData('Pokedex', 'watchog').abilities['1'] = 'Sheer Force';
                         this.modData('Pokedex', 'watchog').baseStats = {hp:100, atk:110, def:70, spa:85, spd:70, spe:90};
-
-            }
 }
