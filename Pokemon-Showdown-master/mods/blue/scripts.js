@@ -44,7 +44,7 @@ exports.BattleScripts = {
                         //Marowak
 
 		this.modData('Pokedex', 'marowak').types = ['Ground', 'Ghost'];
-		this.modData('Learnsets', 'marowak').learnset.headsmash = ['5L100'];
+		this.modData(Learnsets, marowak).learnset.headsmash = [5L100];
                         this.modData('Learnsets', 'marowak').learnset.phantomforce = ['5L100'];
                         this.modData('Learnsets', 'marowak').learnset.shadowsneak = ['5L100'];
                         this.modData('Pokedex', 'marowak').abilities['1'] = 'Parental Bond';
